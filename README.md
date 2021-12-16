@@ -3,7 +3,7 @@ This is the repository of ANDY - a symbolic-numerical multi-body toolbox in MATL
 
 # Copyright and Claims
 
-ANDY was originally created by me (Jiamin Wang) in 2018 in RMLab at Virginia Tech. The toolbox was originally open-sourced at (https://github.com/RM-Lab/ANDY). I left RMLab in Jan 2019 and has still been working on the toolbox. Recently, the RM-Lab organization account has been removed along with the original repository. I was not notified with the removal of the repository.
+ANDY was originally created by me (Jiamin Wang) in 2018 in RMLab at Virginia Tech. The toolbox was originally open-sourced at (https://github.com/RM-Lab/ANDY). I left RMLab in Jan 2019 and has still been developing and managing the toolbox. Recently, the RM-Lab organization account has been removed along with the original repository. I was not notified with the removal of the repository.
 
 The removal of the original open-source repository can be interpreted as RMLab no longer being willing to own the copyright of the ANDY. Hence, as the sole creator I, Jiamin Wang, claim the copyright of ANDY on 2021/12/15. ANDY will remain as an open-sourced toolbox for academic and commercial use. The updates of the toolbox will also be found on this repository.
 
