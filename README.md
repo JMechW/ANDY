@@ -8,6 +8,7 @@ ANDY was originally created by me (Jiamin Wang) in 2018 in RMLab at Virginia Tec
 The removal of the original open-source repository can be interpreted as RMLab no longer being willing to own the copyright of the ANDY. Hence, as the sole creator I, Jiamin Wang, claim the copyright of ANDY on 2021/12/15. ANDY will remain as an open-sourced toolbox for academic and commercial use. The updates of the toolbox will also be found on this repository.
 
 For the current version of ANDY, please cite:
+
 @inproceedings{wang2018multibody, title={A multibody toolbox for hybrid dynamic system modeling based on nonholonomic symbolic formalism}, author={Wang, Jiamin and Kamidi, Vinay R and Ben-Tzvi, Pinhas}, booktitle={Dynamic Systems and Control Conference}, volume={51913}, pages={V003T29A003}, year={2018}, organization={American Society of Mechanical Engineers} }
 
 # Tutorials (Coming Soon)
