@@ -1,6 +1,8 @@
 # ANDY
 This is the repository of ANDY - a symbolic-numerical multi-body toolbox in MATLAB for modeling, simulation, and control. (2021/12/15)
 
+MATLAB Version Requirement: 2017 or later. For pre-compiling, the MATLAB coder toolbox is also required.
+
 # Copyright and Claims
 
 ANDY was originally created by me (Jiamin Wang) in 2018 in RMLab at Virginia Tech. The toolbox was originally open-sourced at (https://github.com/RM-Lab/ANDY). I left RMLab in Jan 2019 and has still been developing and managing the toolbox. Recently, the RM-Lab organization account has been removed along with the original repository. I was not notified with the removal of the repository.
