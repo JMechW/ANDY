@@ -1,6 +1,8 @@
 # ANDY
 This is the repository of ANDY - a symbolic-numerical multi-body toolbox in MATLAB for modeling, simulation, and control. (2021/12/15)
 
+This toolbox adopts a symbolic-numerical formalism - it allows you to symbolically formulate nonholonomic multibody dynamics, and numerically evaluate the model properties for simulation and control with high efficiency. The toolbox also provides visualization utilities for 3D-animated multibody simulations.
+
 MATLAB Version Requirement: 2017 or later. For pre-compiling, the MATLAB Coder toolbox is also required.
 
 # Copyright and Claims
