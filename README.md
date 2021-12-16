@@ -1,7 +1,7 @@
 # ANDY
 This is the repository of ANDY - a symbolic-numerical multi-body toolbox in MATLAB for modeling, simulation, and control. (2021/12/15)
 
-MATLAB Version Requirement: 2017 or later. For pre-compiling, the MATLAB coder toolbox is also required.
+MATLAB Version Requirement: 2017 or later. For pre-compiling, the MATLAB Coder toolbox is also required.
 
 # Copyright and Claims
 
