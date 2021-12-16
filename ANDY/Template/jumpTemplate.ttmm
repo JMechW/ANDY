@@ -1,0 +1,33 @@
+function [act,flow,count,q,p,s]=FUNCNAME_(act,flow,count,t,q,p,u,s,l)
+%% Author: Jiamin Wang; Updated: 2021-12-15;
+
+    if(act)%If jump occured in previous jump function, return.
+        return;
+    end
+    
+    if((flow==FROMFLOW_)&&CONDITION_(act,flow,count,t,q,p,u,s,l))%Condition to determine jump occurence.
+        act=1;%Flag of jumpping
+        flow=TOFLOW_;%The flow after jumping
+        count=count+1;%Counter for Jumping occurence at the same moment
+    else
+        act=0;
+        count=0;
+        return;
+    end
+    
+    [t,q,p,u,s,l]=RESET_(act,flow,count,t,q,p,u,s,l);
+    function [t,q,p,u,s,l]=RESET_(act,flow,count,t,q,p,u,s,l)
+        %The Default Impact Mapper, requires Constraint Jacobian <JCons> and Inertia Matrix <MMat>
+        qSize=numel(q);
+        qdot=q(qSize/2+1:qSize);
+        M=MMat(t,q,p,u,s,l);%Note the input of MMat does not include act, flow, and count!
+        J=JCons(act,flow,count,t,q,p,u,s,l);
+        q(qSize/2+1:qSize)=qdot-(M\(J.'*((J*(M\J.'))\J)))*qdot;
+
+        %Write Your Reset Map Below!
+    end
+%  
+%     function output=CONDITION_(act,flow,count,t,q,p,u,s,l)
+%           %Write Your Jumping Condition Map Here!
+%     end
+
